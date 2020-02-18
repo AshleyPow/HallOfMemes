@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashScreen">
+
+    <TextView
+        android:id="@+id/tvhall"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="200dp"
+        android:background="@drawable/round_h_tv"
+        android:fontFamily="Segoe UI"
+        android:text="Hall "
+        android:textAlignment="center"
+        android:textColor="@color/colorWhiteText"
+        android:textSize="68sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/tvof"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/tvhall"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/round_of_tv"
+        android:fontFamily="Segoe UI"
+        android:paddingTop="5dp"
+        android:text="of"
+        android:textAlignment="center"
+        android:textColor="@color/colorWhiteText"
+        android:textSize="58sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvmemes"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvof"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/round_me_tv"
+        android:fontFamily="Segoe UI"
+        android:text="Memes"
+        android:textAlignment="textEnd"
+        android:textColor="@color/colorWhiteText"
+        android:textSize="68sp"
+        android:textStyle="bold|italic" />
+
+</RelativeLayout>

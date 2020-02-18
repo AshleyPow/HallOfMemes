@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditProfileActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:id="@+id/imgProfilePhoto"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="30dp"
+                android:src="@mipmap/ic_launcher_round"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/etProfileName"
+                android:layout_below="@+id/imgProfilePhoto"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="25dp"
+                android:hint="Name"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/etProfileEmail"
+                android:layout_below="@id/etProfileName"
+                android:layout_marginTop="15dp"
+                android:layout_centerHorizontal="true"
+                android:hint="Email"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/etProfilePhone"
+                android:layout_below="@id/etProfileEmail"
+                android:layout_marginTop="15dp"
+                android:layout_centerHorizontal="true"
+                android:hint="Mobile No"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/etProfileGender"
+                android:layout_below="@id/etProfilePhone"
+                android:layout_marginTop="15dp"
+                android:layout_centerHorizontal="true"
+                android:hint="Gender"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/etProfileDOB"
+                android:layout_below="@id/etProfileGender"
+                android:layout_marginTop="15dp"
+                android:layout_centerHorizontal="true"
+                android:hint="Birthday"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/etProfileDOB"
+                android:layout_marginTop="20dp"
+                android:layout_centerHorizontal="true"
+                android:text="Change Password"
+                android:textSize="19sp"
+                android:textColor="#000000"
+                android:id="@+id/btnProfileChangePass"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/textview_background"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/btnProfileChangePass"
+                android:id="@+id/btnUpdateInfo"
+                android:text="Update"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/btnUpdateInfo"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/btnLogOut"
+                android:text="Logout"/>
+
+        </RelativeLayout>
+
+
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginSignUp.InformationActivity">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imgInfoProfilePicture"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp"
+        android:src="@mipmap/ic_launcher_round"/>
+
+    <TextView
+        android:id="@+id/tvInfoName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:text="Username"
+        android:layout_below="@+id/imgInfoProfilePicture"/>
+
+    <EditText
+        android:id="@+id/etInfoPhone"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/tvInfoName"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rounded_et"
+        android:hint="Mobile Number"
+        android:inputType="number"
+        android:paddingStart="8dp"
+        android:textSize="20sp" />
+
+    <Spinner
+        android:layout_width="301dp"
+        android:layout_height="55dp"
+        android:layout_below="@id/etInfoPhone"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/rounded_et"
+        android:theme="@style/ThemeOverlay.AppCompat.Light"
+        android:layout_marginTop="20dp"
+        android:id="@+id/etInfoGender"
+        android:paddingLeft="8dp"/>
+
+
+    <EditText
+        android:id="@+id/etInfoDOB"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/etInfoGender"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rounded_et"
+        android:hint="Birthday"
+        android:inputType="date"
+        android:paddingLeft="8dp"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btnGetStarted"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/etInfoDOB"
+        android:text="Get Started"
+        android:textSize="18sp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/colorWhiteText"
+        android:background="@drawable/round_btn"
+        tools:ignore="UnknownId" />
+</RelativeLayout>

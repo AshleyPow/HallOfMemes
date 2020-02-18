@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "963244010320",
+    "firebase_url": "https://hallofmemes-a00d6.firebaseio.com",
+    "project_id": "hallofmemes-a00d6",
+    "storage_bucket": "hallofmemes-a00d6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:963244010320:android:fc526163833de384",
+        "android_client_info": {
+          "package_name": "laundryapp.hfad.com.hallofmemes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "963244010320-i4gtir4jkf9r7pivrm9622t3ht52fuc6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "laundryapp.hfad.com.hallofmemes",
+            "certificate_hash": "6d70639c75db94112c6cf9732c56decc949ba66c"
+          }
+        },
+        {
+          "client_id": "963244010320-dla9ugbnlf0h7st6gma0usbig94liint.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCCw9hfyGVTE8sXUDfpgWombPCElEJ7hQs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "963244010320-dla9ugbnlf0h7st6gma0usbig94liint.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
